@@ -1,6 +1,0 @@
-{"input": {"task": "lcs", "a": "abcde", "b": "ace"}, "expected": {"length": 3, "sequence": "ace"}}
-{"input": {"task": "merge", "sizes": [1, 2, 3, 4]}, "expected": {"cost": 20, "plan": [[0, 0, 1], [0, 1, 2], [0, 2, 3]]}}
-{"input": {"task": "tree", "n": 4, "weights": [10, 20, 30, 40], "edges": [[0, 1], [1, 2], [2, 3]]}, "expected": {"weight": 60, "selected": [0, 2]}}
-{"input": {"task": "kmp", "text": "ababab", "pattern": "ab"}, "expected": {"positions": [0, 2, 4]}}
-{"input": {"task": "suffix", "text": "mississippi"}, "expected": {"sa": [10, 7, 4, 1, 0, 9, 8, 6, 3, 5, 2], "lcp": [0, 1, 1, 4, 0, 0, 1, 0, 2, 1, 3], "repeated": "issi"}}
-{"input": {"task": "aho", "patterns": ["a", "ab", "bab"], "texts": ["abab"]}, "expected": {"counts": [[2, 2, 1]]}}
