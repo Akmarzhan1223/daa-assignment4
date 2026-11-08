@@ -34,4 +34,8 @@ Explain observations without treating measured times as a proof of asymptotic co
 
 ## Sources and AI assistance
 
-List tools/sources, contribution and your own verification. State if none were used.
+I used an AI assistant (DeepSeek) as an educational tool to help clarify the theory behind the algorithms and debug specific Java syntax or logic errors. I was responsible for:
+- Structuring the project, setting up the environment, and integrating the code into the provided template.
+- Reviewing, modifying, and ensuring the correctness of the DP transitions and string matching logic.
+- Iteratively running the test suite (`python tools/run.py --check`), diagnosing failures, and adjusting the code to pass all 44 public test cases and the state reset checks.
+- Designing edge cases (empty strings, overlaps, negative weights) to verify the robustness of the final implementation.
