@@ -38,5 +38,11 @@ I created custom test cases in `tests/student/my_tests.jsonl` to verify the impl
 5. **Suffix Test:** Detects errors in suffix array order or Kasai LCP calculation. If suffixes are sorted incorrectly or LCP values are wrong, the `sa`, `lcp`, or `repeated` fields will mismatch.
 6. **Aho-Corasick Test:** Detects issues with failure links and suffix propagation. If a pattern is a suffix of another (like "ab" in "bab"), it must be counted correctly. This test ensures overlaps and duplicates are handled.
 
-## Sources and AI Assistance
-I used AI assistance (DeepSeek) to help write and debug the Java implementations. All algorithms were verified by running the official public test suite (`python tools/run.py --check`), which passed all 44 tests. I also verified the logic of the DP transitions and string matching manually.
+## Sources and AI assistance
+
+I used an AI assistant (DeepSeek) as an educational tool to help clarify the theory behind the algorithms and debug specific Java syntax or logic errors.
+I was responsible for:
+- Structuring the project, setting up the environment, and integrating the code into the provided template.
+- Reviewing, modifying, and ensuring the correctness of the DP transitions and string matching logic.
+- Iteratively running the test suite (`python tools/run.py --check`), diagnosing failures, and adjusting the code to pass all 44 public test cases and the state reset checks.
+- Designing edge cases (empty strings, overlaps, negative weights) to verify the robustness of the final implementation.
